@@ -24,6 +24,12 @@ public class HomeWork3 {
         return false;
 
     }
+    /**
+    *这个方法是错误的 原因如下
+    *2 4  6  8 
+    *7 9 11 12
+    *找10 不会因为第二个while循环里面的if判断条件而终止 该条件实际多余
+    */
     public static boolean Find2(int target,int[][] array) {
         int i=array.length-1;
         int j=0;
