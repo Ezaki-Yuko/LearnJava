@@ -9,7 +9,7 @@
  */
 
 /**
- * 数据库中的约束就是针对数据进行的一些校验
+ * 数据库中的月数就是针对数据进行的一些校验
  * group by 把得到查询结果集按照一定的规则分组(可能分多组)
  * 有group by就把role相同的记录放在一组 avg是针对每个组来求平均值
  * select role from emp group by role;
@@ -87,4 +87,5 @@
  *
  * 主要以内连接为主
  */
-
+public class TestDemo88 {
+}
